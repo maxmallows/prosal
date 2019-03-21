@@ -1,0 +1,199 @@
+  		body {
+        font-family: 'Optima', sans-serif;
+        color:#000000;
+        text-align:left;
+      }
+
+
+		table td,table th{padding:2px;
+		}
+
+		table tr{height:0pt;
+		}
+
+
+		p{margin:0;font-size:11pt;
+		}
+
+		h1{font-size:20pt;
+		}
+
+		h2{font-size:16pt;
+		}
+
+		h3{font-size:18pt;
+			text-align:center;
+			padding-top: 30px;
+		}
+
+		h4{
+			font-size:12pt;
+			padding-bottom:4pt;
+			font-weight: 300;
+		}
+
+		sup {
+    		vertical-align: super;
+    		font-size: smaller;
+		}
+
+		.preheader{
+					color: white;
+		}
+
+		.email-container{
+					max-width: 600px;
+					background: white;
+					margin:0 auto;
+		}
+		
+
+		.cell-styling{
+					border-right-style:solid;
+					padding:2pt;
+					border-width:1px;
+					border-color:#ffffff;
+					vertical-align:top;
+					border-style:solid;
+		}
+
+
+
+		.opening-closing-text{
+			padding: 10px;
+
+		}
+
+		.weekly-overview{
+					border: 1px solid black;
+					margin: 2px;
+					padding: 5px;
+					background-color: #e6eeff;
+		}
+
+		.week-detail-container{
+					padding: 10px, 0px;
+		}
+
+		.day{
+					padding: 2px, 0px;
+					font-family: 'Garamond', serif;
+		}
+
+		.area{
+					padding: 2px 0px;
+
+		}
+
+		.group{
+					border: solid 2px;
+					border-color: #black;
+					border-radius: 5px;
+					margin-bottom: 4px;
+
+		}
+
+		.events{
+					background-color: #ffffff;
+		}
+
+		.event{
+					width: 100%;
+					font-family: 'Optima', sans-serif;
+					margin: 0px 5px 10px 5px;
+		}
+
+
+		.event-cell{
+					text-align: left;
+
+		}
+
+		.calendar-cell{
+					vertical-align:center;
+					width:30px;
+
+		}
+
+		.event-time{
+					color:#000000;
+					font-weight:600;
+					vertical-align:baseline;
+					font-size:11pt;
+
+
+		}
+
+		.artist-name{
+					color:#000000;
+					font-weight:500;
+					vertical-align:baseline;
+					font-size:11pt;
+					font-style:normal;
+
+		}
+
+		.event-name{
+					color:#000000;
+					font-weight:500;
+					vertical-align:baseline;
+					font-size:11pt;
+					font-style:italic;
+
+		}
+
+		.gallery-name{
+					color:#000000;
+					font-weight:600;
+					vertical-align:baseline;
+					font-size:11pt;
+					font-style:normal;
+
+		}
+
+		.gallery-address{
+					color:#000000;
+					font-weight:400;
+					vertical-align:baseline;
+					font-size:11pt;
+					text-decoration:underline;
+		}
+
+		.rsvp-info{
+					color:#000000;
+					font-weight:400;
+					vertical-align:baseline;
+					font-size:11pt;
+					font-style:normal;
+		}
+
+		.rsvp-url{
+					color:#000000;
+					font-weight:400;
+					vertical-align:baseline;
+					font-size:11pt;
+					text-decoration:underline;
+		}
+
+		.cta{
+					border: solid;
+					border-color: #3D00FF;
+					padding:3px;
+					margin: 10px;
+					text-align:center;
+
+		}
+
+		.button {
+			  		background-color: #3D00FF;
+			  		border: none;
+			  		color: white;
+				  	padding: 15px 15px;
+				  	text-align: center;
+				  	text-decoration: none;
+				  	display: inline-block;
+				  	font-size: 16px;
+				  	margin: 4px 2px;
+				  	cursor: pointer;
+				  	border-radius: 4px;
+		}
