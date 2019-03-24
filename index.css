@@ -3,6 +3,12 @@
         text-align:left;
      	}
 
+	a.event-link:link
+	{
+	   color: #fb3f00;
+	   text-decoration: none;
+	}
+
 
 		table td,table th{
 			padding:2px;
