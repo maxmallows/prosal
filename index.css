@@ -2,34 +2,45 @@
         font-family: 'Optima', sans-serif;
         color:#000000;
         text-align:left;
-      }
+     	}
 
 
-		table td,table th{padding:2px;
+		table td,table th{
+			padding:2px;
 		}
 
-		table tr{height:0pt;
+		table tr{
+			height:0pt;
 		}
 
 
-		p{margin:0;font-size:11pt;
+		p{
+			margin:0;
+			font-size:11pt;
 		}
 
 		h1{font-size:20pt;
 		}
 
 		h2{font-size:16pt;
+			margin: 0px;
 		}
 
-		h3{font-size:18pt;
+		h3{
+			font-size:18pt;
 			text-align:center;
 			padding-top: 30px;
+			margin-top: 0px;
+			margin-bottom: 0px;
 		}
 
 		h4{
 			font-size:12pt;
-			padding-bottom:4pt;
+			padding-bottom:4px;
 			font-weight: 300;
+			color: #3e00ff;
+			text-decoration: underline;
+			margin: 0px;
 		}
 
 		sup {
@@ -50,7 +61,7 @@
 
 		.cell-styling{
 					border-right-style:solid;
-					padding:2pt;
+					padding:2px;
 					border-width:1px;
 					border-color:#ffffff;
 					vertical-align:top;
@@ -65,10 +76,10 @@
 		}
 
 		.weekly-overview{
-					border: 1px solid black;
+					border: 3px solid black;
 					margin: 2px;
 					padding: 5px;
-					background-color: #e6eeff;
+					background-color: #white;
 		}
 
 		.week-detail-container{
@@ -78,6 +89,7 @@
 		.day{
 					padding: 2px, 0px;
 					font-family: 'Garamond', serif;
+					margin-bottom: 2px;
 		}
 
 		.area{
@@ -98,9 +110,9 @@
 		}
 
 		.event{
-					width: 100%;
+					width: 95%;
 					font-family: 'Optima', sans-serif;
-					margin: 0px 5px 10px 5px;
+					margin: 0px 5px 5px 5px;
 		}
 
 
@@ -116,18 +128,19 @@
 		}
 
 		.event-time{
+					font-weight:600;
+					font-size:11pt;
+		}
+
+		.event-type{
 					color:#000000;
 					font-weight:600;
-					vertical-align:baseline;
 					font-size:11pt;
-
-
 		}
 
 		.artist-name{
 					color:#000000;
 					font-weight:500;
-					vertical-align:baseline;
 					font-size:11pt;
 					font-style:normal;
 
@@ -136,7 +149,6 @@
 		.event-name{
 					color:#000000;
 					font-weight:500;
-					vertical-align:baseline;
 					font-size:11pt;
 					font-style:italic;
 
@@ -145,7 +157,6 @@
 		.gallery-name{
 					color:#000000;
 					font-weight:600;
-					vertical-align:baseline;
 					font-size:11pt;
 					font-style:normal;
 
@@ -154,7 +165,6 @@
 		.gallery-address{
 					color:#000000;
 					font-weight:400;
-					vertical-align:baseline;
 					font-size:11pt;
 					text-decoration:underline;
 		}
@@ -162,22 +172,16 @@
 		.rsvp-info{
 					color:#000000;
 					font-weight:400;
-					vertical-align:baseline;
 					font-size:11pt;
 					font-style:normal;
 		}
 
 		.rsvp-url{
-					color:#000000;
 					font-weight:400;
-					vertical-align:baseline;
 					font-size:11pt;
-					text-decoration:underline;
 		}
 
 		.cta{
-					border: solid;
-					border-color: #3D00FF;
 					padding:3px;
 					margin: 10px;
 					text-align:center;
@@ -185,14 +189,12 @@
 		}
 
 		.button {
-			  		background-color: #3D00FF;
-			  		border: none;
-			  		color: white;
+			  		background-color: white;
+			  		border: solid 1px;
 				  	padding: 15px 15px;
 				  	text-align: center;
-				  	text-decoration: none;
 				  	display: inline-block;
-				  	font-size: 16px;
+				  	font-size: 16pt;
 				  	margin: 4px 2px;
 				  	cursor: pointer;
 				  	border-radius: 4px;
