@@ -2,63 +2,1133 @@
 <head>
 	<title>Seb's Art List</title>
 	
+	<style type="text/css">
+
+  		body {
+        font-family: 'Optima', sans-serif;
+        text-align:left;
+     	}
+
+
+		table td,table th{
+			padding:2px;
+		}
+
+		table tr{
+			height:0pt;
+		}
+
+
+		p{
+			margin:0;
+			font-size: 10pt
+		}
+
+		h1{font-size:20pt;
+		}
+
+		h2{font-size:16pt;
+			margin: 0px;
+		}
+
+		h3{
+			font-size:18pt;
+			text-align:center;
+			padding-top: 30px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		h4{
+			font-size:12pt;
+			padding-bottom:4px;
+			font-weight: 600;
+			text-decoration: none;
+			margin: 0px;
+			color: black;
+		}
+
+		sup {
+    		vertical-align: super;
+    		font-size: smaller;
+		}
+
+		.preheader{
+					color: white;
+		}
+
+		.email-container{
+					max-width: 600px;
+					background: white;
+					margin:0 auto;
+		}
+
+
+
+		.opening-closing-text{
+			padding: 10px;
+
+		}
+
+		.weekly-overview{
+					border: 2px solid black;
+					margin: 2px;
+					padding: 5px;
+					color: black;
+					font-size: 10pt;
+		}
+
+		.week-detail-container{
+					padding: 10px, 0px;
+		}
+
+		.day{
+					padding: 2px, 0px;
+					font-family: 'Garamond', serif;
+					margin-bottom: 2px;
+		}
+
+		.area{
+					padding: 2px 0px;
+
+		}
+
+		.group{
+					border: solid 2px;
+					border-color: #black;
+					border-radius: 5px;
+					margin-bottom: 4px;
+
+		}
+
+		.events{
+					background-color: #ffffff;
+		}
+
+		.event{
+					width: 95%;
+					font-family: 'Optima', sans-serif;
+					margin: 0px 5px 5px 5px;
+		}
+
+
+		.event-time{
+					font-weight:600;
+					color: black;
+					text-decoration: none;
+		}
+
+		.event-type{
+					font-weight:600;
+		}
+
+		.artist-name{
+					font-weight:400;
+
+		}
+
+		.event-name{
+					font-weight:400;
+
+		}
+
+		.gallery-name{
+					font-weight:600;
+					font-style:normal;
+
+		}
+
+		.gallery-address{
+			color: black;
+
+					font-weight:400;
+					text-decoration:none;
+		}
+
+		.rsvp-info{
+					color:#000000;
+					font-weight:400;
+					font-style:normal;
+		}
+
+		.rsvp-url{
+					font-weight:400;
+		}
+
+		.cta{
+					padding:3px;
+					margin: 10px;
+					text-align:center;
+
+		}
+
+		.button {
+			  		background: black;
+			  		color: white;
+			  		border: solid 1px;
+				  	padding: 15px 15px;
+				  	text-align: center;
+				  	display: inline-block;
+				  	font-size: 16pt;
+				  	margin: 4px 2px;
+				  	cursor: pointer;
+				  	border-radius: 4px;
+		}
+
+
+	</style>
+
 </head>
-<body style="font-family: 'Optima', sans-serif;text-align: left;">
+<body>
 
 	<div style="display: none; max-height: 0px; overflow: hidden;">
 All of London's Art Events in One Place
 </div>
 
+<!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
 <div style="display: none; max-height: 0px; overflow: hidden;">
 &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
 </div>
 	
-	<div class="email-container" style="max-width: 600px;background: white;margin: 0 auto;">
-    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
-          <tr style="height: 0pt;">
-            <td align="center" valign="top" style="padding: 36px 24px;">
-              <a href="https://sebsartlist.com" target="_blank" style="display: inline-block;">
-                <img src="https://gallery.mailchimp.com/f4d65bca95d30cea631ed6aee/images/1fd6e7fc-4804-4099-bc18-dcfe2641c2f9.png" alt="Logo" border="0" width="120" style="display: block; width: 120px; max-width: 120px; min-width: 120px;">
-              </a>
-            </td>
-          </tr>
-        </table>
-		<p style="text-align: center;margin: 0;font-size: 10pt;">01/04/19-07/04/19</p>
+	<div class="email-container">
+		<div><a href="https://sebsartlist.com"><img src="https://gallery.mailchimp.com/f4d65bca95d30cea631ed6aee/images/f6e6eeae-c3dc-4ca9-afc2-94b20f939bea.png" alt="Seb's Art List header logo" width="100%"></a></div>
+		<p style="text-align:center;">08/04/19-16/04/19</p>
 		<br>
-		<p style="margin: 0;font-size: 11pt;font-family: 'Cormorant Garamond', Helvetica, Arial, sans-serif;">Dear art lovers,
-      <br>
-      <br>This week thee are loads of amazing events to go to.
-      <br>
-      <br>Due to issues with some suscribers not recieving the list in their inbox last week we have put this weeks online. Click the button to view this weeks list.<br>
-      <br> 
-    </p>
 		
+		<div class="weekly-overview">
+			<p>
+				<p style="text-align:center;"><b>Week overview</b></p>
+				<a href="#Monday"><b>Monday</b></a> - <a href="#MondayCentral">Central</a> - Collectors preview for work by Makoto Kagoshima at <b>Messum’s</b> on Cork Street.
+				<br><br>
 
-		<div class="cta" style="margin: 10px;font-size: 11pt;font-family: 'Optima', Helvetica, Arial, sans-serif;padding: 3px;text-align: center;">
+				<a href="#Tuesday"><b>Tuesday</b></a> - <a href="#TuesdayCentral">Central</a> - At the <b>ICA</b>, curator tour [3-3:30] of current show from Morag Keil. Openings across St James’ and Mayfair, with highlights being Harlem based artist Stanley Squirewell at <b>Gallery 8</b>, Beverley Fishman at Ronchini and large group show at <b>Belmacz</b>. Also talk [6:30-8:30] at Dellasposa on current Future is Female group show.  <a href="#TuesdaySouth">South</a> - Morning press view and evening private view for the Jerwood/FVU Awards at <b>Jerwood Space</b>. 
+				<br><br>
+
+				<a href="#Wednesday"><b>Wednesday</b></a> - <a href="#WednesdayCentral">Central</a> - Great set of openings including Gillian Ayres at <b>Alan Cristea</b>, excellent printmaker Tom Hammick at <b>Flowers</b> and Brian Maguire at <b>Alice Black</b>. <a href="#WednesdayEast">East</a> - Joan Cornellà at <b>Public Gallery</b> in Stoke Newington also looks interesting.
+				<br><br>
+
+				<a href="#Thursday"><b>Thursday</b></a> - <a href="#ThursdayWest">West</a> - Four shows in Holland Park/Notting Hill, with Sanlé Sory at David Hill in Ladbroke Grove being a highlight. <a href="#ThursdayCentral">Central</a> - Running down from Bond Street, with openings at <b>Parafin</b>, <b>Blain Southern</b>, <b>Lazinc</b> and <b>David Gill</b> in St James’. Also talk [6:30-7:30] from Joan Snyder at <b>Blain Southern</b> coinciding with the opening. <a href="#ThursdayEast">East</a>- Walking from Farringdon to Brick Lane starting at <b>Modern Art</b>, to <b>Standpoint</b>, <b>Jealous East</b> and <b>Kate Macgarry</b>, amongst others. Inspiration Series continues at the <b>Sarabande Foundation</b> with talk [7-8:30] from national treasure Martin Parr. <a href="#ThursdaySouthEast">SouthEast</a> - Screening [7-9] on doc on the Chicago Imagists at <b>Goldsmiths</b>; the current Imagist exhibition there is well worth a visit. 
+				<br><br>
+
+				<a href="#Friday"><b>Friday</b></a> - Late at <b>Tate Britain</b> with various happenings on social documentary in response to Don McCullin’s current retrospective exhibition. <a href="#FridayEast">East</a> - Emma Fineman opens at <b>Beers Contemporary</b> by Old Street. <a href="#FridaySouthEast">SouthEast</a> - Revolv Collective open at <b>Seen Fifteen</b> in the Bussey Building. 
+				<br><br>
+
+				<a href="#Saturday"><b>Saturday</b></a> - <a href="#SaturdayCentral">Central</a> - Morning book signing with Oliver Jeffers at Lazinc, and afternoon opening for Bea Schlingelhoff at <b>Arcadia Missa</b>. <a href="#SaturdayEast">East</a> - Head to Herald Street for openings at <b>Maureen Paley</b>, <b>Soft Opening</b> and <b>Project Native Informant</b>. 
+
+
+</p>
+
 			
-			<a href="https://pro.sebsartlist.com" class="button" style="background: black;color: white;border: solid 1px;padding: 15px 15px;text-align: center;display: inline-block;font-size: 16pt;margin: 4px 2px;cursor: pointer;border-radius: 4px;">View this weeks list</a>
+		</div>
+
+		<div class="cta">
+			<p>If you were forwarded this email please sign here for the weekly email.</p>
+			<a href="https://sebsartlist.com" class="button">Sign up to Seb's Art List</a>
 		</div>
  
   
 
-    <div class="opening-closing-text" style="padding: 10px;">
+  <div class="week-detail-container">
+    <div class="day">
+      <a name="Monday"></a><h3>Monday</h3>
+      <div class="area">
+        <a name="MondaySouth East"><h4>South East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  7 - 8:45pm
+                </a>
+                - <span class="event-type">Showing</span> - <span class="gallery-name">Dulwich Picture Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Gallery Rd, Dulwich, SE21 7AD">Gallery Rd, Dulwich, SE21 7AD</a>
+                <br><span class="artist-name">Woody Allen&#39;s</span> - <a class="event-name" href="https://www.dulwichpicturegallery.org.uk/whats-on/film/2019/april/annie-hall-1977/">Annie Hall [1977]</a>
+              </p>
+              
+              <p><span class="rsvp-info">Tickets £8/10</span> - <a class="rsvp-url" href="https://my.dulwichpicturegallery.org.uk/tickets/2966/annie-hall">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="day">
+      <a name="Tuesday"></a><h3>Tuesday</h3>
+      <div class="area">
+        <a name="TuesdayCentral"><h4>Central</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  10:30 - 1pm
+                </a>
+                - <span class="event-type">Press View</span> - <span class="gallery-name">The British Museum</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Room 35, The Sir Joseph Hotung Gallery, Great Russell Street, WC1B 3DG">Room 35, The Sir Joseph Hotung Gallery, Great Russell Street, WC1B 3DG</a>
+                <br><span class="artist-name">Press View - Edvard Munch [Curator Giulia Bartrum talk 11.00]</span> - <a class="event-name" href="https://www.britishmuseum.org/whats_on/exhibitions/munch.aspx">Love &amp; Angst </a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:communications@britishmuseum.org?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Gagosian [Davies St]</span> - <a class="gallery-address" href="https://www.google.com/maps/place/17 Davies Street, W1K 3DF">17 Davies Street, W1K 3DF</a>
+                <br><span class="artist-name">Gerhard Richter </span> - <a class="event-name" href="https://gagosian.com/exhibitions/2019/gerhard-richter-overpainted-photographs/">Overpainted Photograghs </a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Regent&#39;s Place</span> - <a class="gallery-address" href="https://www.google.com/maps/place/19 Triton Place, NW1 3BF">19 Triton Place, NW1 3BF</a>
+                <br><span class="artist-name">5 Contemporary Artist Show [Curated by Aindrea Contemporary &amp; London Curatorial]</span> - <a class="event-name" href="https://www.instagram.com/p/BvaDaEelycZ/">Sisyphus in Retrograde </a>
+              </p>
+              
+              <p><span class="rsvp-info"></span><a class="rsvp-url" href="mailto:rsvp@aindrea.com?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Panter &amp; Hall</span> - <a class="gallery-address" href="https://www.google.com/maps/place/2 Pall Mall, SW1Y 5LU">2 Pall Mall, SW1Y 5LU</a>
+                <br><span class="artist-name">Vanessa Bowman</span> - <a class="event-name" href="http://www.panterandhall.com/exhibition/vanessa-bowman-the-nature-of-colour">The Nature of Colout</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8pm
+                </a>
+                - <span class="event-type">Talk</span> - <span class="gallery-name">Photographer&#39;s Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/18 Ramillies St, W1F 7LW">18 Ramillies St, W1F 7LW</a>
+                <br><span class="artist-name">Talk - John Stezaker in conversation with curator Anne-Marie Beckmann</span> - <a class="event-name" href="https://thephotographersgallery.org.uk/whats-on/talks-and-events/john-stezaker-conversation-anne-marie-beckmann">In Conversation </a>
+              </p>
+              
+              <p><span class="rsvp-info">Tickets £5/8</span> - <a class="rsvp-url" href="https://thephotographersgallery.org.uk/civicrm/event/register?reset=1&amp;id=1171">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 7:30pm
+                </a>
+                - <span class="event-type">Talk</span> - <span class="gallery-name">Blain Southern</span> - <a class="gallery-address" href="https://www.google.com/maps/place/4 Hanover Square, W1S 1BP">4 Hanover Square, W1S 1BP</a>
+                <br><span class="artist-name">Talk - Sean Scully &amp; Marla Price [Director, Modern Art Museum of Fort Worth]</span> - <a class="event-name" href="https://www.blainsouthern.com/news/sean-scully-artist-talk-and-book-signing?utm_source=Blain%7CSouthern+Newsletter&amp;utm_campaign=0d8b851051-seanscully-talk-london-april2019&amp;utm_medium=email&amp;utm_term=0_08fe10d9dc-0d8b851051-121912613">In Conversation &amp; Book Signing</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:talks@blainsouthern.com.?subject=RSVP">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="TuesdaySouth"><h4>South</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Marlborough Fine Art</span> - <a class="gallery-address" href="https://www.google.com/maps/place/6 Albemarle St, W1S 4BY">6 Albemarle St, W1S 4BY</a>
+                <br><span class="artist-name">Joe Tilson</span> - <a class="event-name" href="http://www.marlboroughlondon.com/exhibitions/joe-tilson-new-paintings/">New Paintings</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="day">
+      <a name="Wednesday"></a><h3>Wednesday</h3>
+      <div class="area">
+        <a name="WednesdaySouth West"><h4>South West</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Gasworks</span> - <a class="gallery-address" href="https://www.google.com/maps/place/155 Vauxhall St, SE11 5RH">155 Vauxhall St, SE11 5RH</a>
+                <br><span class="artist-name">Pedro Neves Marques</span> - <a class="event-name" href="https://www.gasworks.org.uk/exhibitions/pedro-neves-marques-2019-04-11/?utm_source=Gasworks+Newsletter&amp;utm_campaign=4ce45cadd7-EMAIL_CAMPAIGN_PEDRO_PREVIEW&amp;utm_medium=email&amp;utm_term=0_1536a223fe-4ce45cadd7-116956217">It Bites Back</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="WednesdayWest"><h4>West</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  7 - 9pm
+                </a>
+                 - <span class="gallery-name">Serpentine</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Kensington Gardens, W2 3XA">Kensington Gardens, W2 3XA</a>
+                <br><span class="artist-name">Hito Steyerl </span> - <a class="event-name" href="https://www.serpentinegalleries.org/exhibitions-events/hito-steyerl-power-plants">Power Plant </a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="WednesdayCentral"><h4>Central</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  9:30 - 11am
+                </a>
+                - <span class="event-type">Press View</span> - <span class="gallery-name">Wellcome Collection</span> - <a class="gallery-address" href="https://www.google.com/maps/place/183 Euston Rd, NW1 2BE">183 Euston Rd, NW1 2BE</a>
+                <br><span class="artist-name">New Exhibition - The Psychology of Magic</span> - <a class="event-name" href="https://wellcomecollection.org/exhibitions/W_vuwBQAACoA_SY2">Smoke &amp; Mirrors</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:j.sanchez@wellcome.ac.uk?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  5 - 7pm
+                </a>
+                 - <span class="gallery-name">Victoria Miro - Mayfair</span> - <a class="gallery-address" href="https://www.google.com/maps/place/14 St George St, W1S 1FE">14 St George St, W1S 1FE</a>
+                <br><span class="artist-name">Chantal Joffe</span> - <a class="event-name" href="https://www.victoria-miro.com/exhibitions/538/">&quot;You’ve got you, and you’ve got paint&quot;</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Victoria Miro - East</span> - <a class="gallery-address" href="https://www.google.com/maps/place/6 Wharf Rd, N1 7RW">6 Wharf Rd, N1 7RW</a>
+                <br><span class="artist-name">Chantal Joffe + NS Harsha</span> - <a class="event-name" href="https://www.victoria-miro.com/exhibitions/538/">&quot;You’ve got you, and you’ve got paint&quot; + Reclaiming the Inner Space</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">October Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/24 Old Gloucester St, WC1N 3AL">24 Old Gloucester St, WC1N 3AL</a>
+                <br><span class="artist-name">Group Show inc. William Burroughts &amp; Brion Gysin</span> - <a class="event-name" href="http://octobergallery.co.uk/exhibitions/2019dre/">Dream No Small Dream [40 Years of Transvangarde]</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Almine Rech [Grosvenor]</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Grosvenor Hill, W1K 3JH">Grosvenor Hill, W1K 3JH</a>
+                <br><span class="artist-name">Chloe Wise</span> - <a class="event-name" href="https://www.alminerech.com/exhibitions/5472-chloe-wise">Not That We Don&#39;t </a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Hollybush Gardens</span> - <a class="gallery-address" href="https://www.google.com/maps/place/2 Warner Yard, EC1R 5EY">2 Warner Yard, EC1R 5EY</a>
+                <br><span class="artist-name">Bruno Pacheco</span> - <a class="event-name" href="http://hollybushgardens.co.uk/?page_id=20245">head (red) hand </a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 7:30pm
+                </a>
+                - <span class="event-type">Talk</span> - <span class="gallery-name">The Royal Academy</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Burlington House, Piccadilly, W1J 0BD">Burlington House, Piccadilly, W1J 0BD</a>
+                <br><span class="artist-name">Phyllida Barlow &amp; critic Gilda Williams</span> - <a class="event-name" href="https://www.royalacademy.org.uk/event/artist-in-conversation-phyllida-barlow-ra?utm_source=Current+Mailing+List&amp;utm_campaign=394aa96a1e-EMAIL_CAMPAIGN_2018_11_22_12_09_COPY_01&amp;utm_medium=email&amp;utm_term=0_c951207a70-394aa96a1e-34172613&amp;mc_cid=394aa96a1e&amp;mc_eid=6eefc94554">Discussing her RA Exhibition Cul-de-Sac</a>
+              </p>
+              
+              <p><span class="rsvp-info">Tickets £20</span> - <a class="rsvp-url" href="https://my.royalacademy.org.uk/38664/38665">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="day">
+      <a name="Thursday"></a><h3>Thursday</h3>
+      <div class="area">
+        <a name="ThursdaySouth West"><h4>South West</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Kristin Hjellegjerde</span> - <a class="gallery-address" href="https://www.google.com/maps/place/533 Old York Rd, SW18 1TG">533 Old York Rd, SW18 1TG</a>
+                <br><span class="artist-name">Group curated by EKCO London/Roberto Ekholm</span> - <a class="event-name" href="https://kristinhjellegjerde.com/exhibitions/134/overview/">Happy Hour </a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="ThursdayWest"><h4>West</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Pontone</span> - <a class="gallery-address" href="https://www.google.com/maps/place/43 Cadogan Gardens, SW3 2TB">43 Cadogan Gardens, SW3 2TB</a>
+                <br><span class="artist-name">Lee Jeahyo + Kim Bumsu</span> - <a class="event-name" href="https://pontonegallery.art/exhibitions/forthcoming/">The Spirit of Material + Sacred CInema</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:art@pontonegallery.com?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 12am
+                </a>
+                 - <span class="gallery-name">Mosaic Rooms</span> - <a class="gallery-address" href="https://www.google.com/maps/place/14 Cornwall Terrace, NW1 4QP">14 Cornwall Terrace, NW1 4QP</a>
+                <br><span class="artist-name">Mohamed Melehi &amp; the Casablanca Art School</span> - <a class="event-name" href="https://mosaicrooms.org/event/exhibition-preview-of-mohamed-melehi-and-the-casablanca-art-school-new-waves/">New Waves</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="ThursdayCentral"><h4>Central</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  All Day
+                </a>
+                 - <span class="gallery-name">Sotheby&#39;s S2</span> - <a class="gallery-address" href="https://www.google.com/maps/place/31 St George St, W1S 2FJ">31 St George St, W1S 2FJ</a>
+                <br><span class="artist-name">Amadeo Luciano Lorenzato </span><span class="event-name"></span>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                - <span class="event-type">Talk</span> - <span class="gallery-name">Richard Saltoun</span> - <a class="gallery-address" href="https://www.google.com/maps/place/41 Dover Street, W1S 4NS">41 Dover Street, W1S 4NS</a>
+                <br><span class="artist-name">Talk - Rose English with writer &amp; curator Paul Clinton</span> - <span class="event-name">In Conversation</span>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Gazelli Art House</span> - <a class="gallery-address" href="https://www.google.com/maps/place/39 Dover St, W1S 4NN">39 Dover St, W1S 4NN</a>
+                <br><span class="artist-name">Giovanni Ozzola</span> - <a class="event-name" href="https://gazelliarthouse.com/exhibition/1982-2/">1982</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:rsvp@gazelliarthouse.com?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">David Zwirner</span> - <a class="gallery-address" href="https://www.google.com/maps/place/24 Grafton St, W1S 4EZ">24 Grafton St, W1S 4EZ</a>
+                <br><span class="artist-name">William Eggleston</span> - <a class="event-name" href="https://www.davidzwirner.com/exhibitions/2-%C2%BC">2 1/4</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Gagosian [Grosvenor Hill]</span> - <a class="gallery-address" href="https://www.google.com/maps/place/20 Grosvenor Hill, W1K 3QD">20 Grosvenor Hill, W1K 3QD</a>
+                <br><span class="artist-name">Rembrandt [in collab with English Heritage]</span> - <a class="event-name" href="https://gagosian.com/exhibitions/2019/visions-of-the-self-rembrandt-and-now-english-heritage/">Visions of the Self: Rembrandt and Now</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Pi Artworks</span> - <a class="gallery-address" href="https://www.google.com/maps/place/55 Eastcastle St, W1W 8EG ">55 Eastcastle St, W1W 8EG </a>
+                <br><span class="artist-name">Mustafa Hulusi</span> - <span class="event-name">Cyprus Realism</span>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Mazzoleni</span> - <a class="gallery-address" href="https://www.google.com/maps/place/27 Albemarle St, W1S 4HZ">27 Albemarle St, W1S 4HZ</a>
+                <br><span class="artist-name">Massimo Vitali</span> - <a class="event-name" href="http://mazzoleniart.com/elenco_espositori/massimo-vitali-short-stories/">Short Stories</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Jack Bell</span> - <a class="gallery-address" href="https://www.google.com/maps/place/13 Mason&#39;s Yard, SW1Y 6BU">13 Mason&#39;s Yard, SW1Y 6BU</a>
+                <br><span class="artist-name">Baatzarorig Batjargol</span> - <a class="event-name" href="https://www.jackbellgallery.com/exhibitions/93/overview/">Wolf Totem</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Amanda Wilkinson</span> - <a class="gallery-address" href="https://www.google.com/maps/place/1st Floor, 18 Brewer St, W1F 0SH">1st Floor, 18 Brewer St, W1F 0SH</a>
+                <br><span class="artist-name">Derek Jarman</span><a class="event-name" href="https://amandawilkinsongallery.com/artists/31-derek-jarman/exhibitions/"></a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">Pilar Corrias</span> - <a class="gallery-address" href="https://www.google.com/maps/place/54 Eastcastle St, W1W 8EF">54 Eastcastle St, W1W 8EF</a>
+                <br><span class="artist-name">Robert Reed</span> - <a class="event-name" href="https://www.pilarcorrias.com/exhibitions/robert-reed-san-romano-series/">San Romano Series</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Pi Artworks</span> - <a class="gallery-address" href="https://www.google.com/maps/place/55 Eastcastle St, W1W 8EG ">55 Eastcastle St, W1W 8EG </a>
+                <br><span class="artist-name">Mustafa Hulusi </span> - <span class="event-name">Cyprus Realism</span>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8pm
+                </a>
+                - <span class="event-type">Talk</span> - <span class="gallery-name">Richard Saltoun</span> - <a class="gallery-address" href="https://www.google.com/maps/place/41 Dover Street, W1S 4NS">41 Dover Street, W1S 4NS</a>
+                <br><span class="artist-name">Displaying artist Rose English &amp; writer Paul Clinton</span> - <a class="event-name" href="https://www.richardsaltoun.com/exhibitions/69-rose-english-form-feminisms-femininities/events/">In Conversation</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:rsvp@richardsaltoun.com?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Rosenfeld Porcini</span> - <a class="gallery-address" href="https://www.google.com/maps/place/37 Rathbone St, Fitzrovia, W1T 1NZ">37 Rathbone St, Fitzrovia, W1T 1NZ</a>
+                <br><span class="artist-name">Cesare Lucchini</span> - <a class="event-name" href="https://rosenfeldporcini.com/exhibitions/46/overview/">Pietà</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  7 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Huxley-Parlour</span> - <a class="gallery-address" href="https://www.google.com/maps/place/5 Swallow St, W1B 4DE">5 Swallow St, W1B 4DE</a>
+                <br><span class="artist-name">Seven Artist Group Show</span> - <a class="event-name" href="https://huxleyparlour.com/exhibitions/new-mythologies-figurative-abstraction-in-contemporary-painting/">New Mythologies</a>
+              </p>
+              
+              <p><span class="rsvp-info"></span><a class="rsvp-url" href="https://beetlesandhuxley.us9.list-manage.com/subscribe?u=0a72a21d5eb6f3020fed27f59&amp;id=17289aba68">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="group" id="1">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="https://evently.xyz/792c201e28">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">A&amp;D</span> - <a class="gallery-address" href="https://www.google.com/maps/place/51 Chiltern St, W1U 6LY">51 Chiltern St, W1U 6LY</a>
+                <br><span class="artist-name">Anna Mazzotta </span> - <a class="event-name" href="http://www.aanddgallery.com/pages/future.html">The Pure Decadence</a>
+              </p>
+              
+              <p><span class="rsvp-info"></span><a class="rsvp-url" href="mailto:rsvp@gabrielfineart.com?subject=RSVP">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="ThursdayNorth"><h4>North</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  12 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Camden Arts Centre</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Arkwright Rd, NW3 6DG">Arkwright Rd, NW3 6DG</a>
+                <br><span class="artist-name">Grace Pailthorpe &amp; Reuben Mednikoff + Jonathan Baldock</span> - <a class="event-name" href="https://www.camdenartscentre.org/whats-on/view/pmednikoff">A Tale of Mother’s Bones - the birth of Psychorealism + Facecrime</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Chalton Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/96 Chalton St, Kings Cross, London NW1 1HJ">96 Chalton St, Kings Cross, London NW1 1HJ</a>
+                <br><span class="artist-name">Claude Heiland-Allen</span> - <span class="event-name">Digital Art - Computer Graphics - Free/Libre Open Source Software</span>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="ThursdayEast"><h4>East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  5 - 9pm
+                </a>
+                 - <span class="gallery-name">5th Base Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/23 Heneage St, E1 5LJ">23 Heneage St, E1 5LJ</a>
+                <br><span class="artist-name">Aleksandar Bašić &amp; Luke Branca</span> - <a class="event-name" href="https://www.5thbase.co.uk/forthcoming">Portraits &amp; Seascapes</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Cell Project Space</span> - <a class="gallery-address" href="https://www.google.com/maps/place/258 Cambridge Heath Rd, E2 9DA">258 Cambridge Heath Rd, E2 9DA</a>
+                <br><span class="artist-name">Anna-Sophie Berger</span> - <a class="event-name" href="https://www.cellprojects.org/exhibitions/future">A Failed Play</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Well Hung Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/239 Hoxton St, N1 5LG">239 Hoxton St, N1 5LG</a>
+                <br><span class="artist-name">Dale Grimshaw</span> - <a class="event-name" href="https://wellhung.co.uk/exhibitions/dale-grimshaw-still-waters-run-deep/">Still Waters Run Deep </a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">FILET</span> - <a class="gallery-address" href="https://www.google.com/maps/place/103 Murray Grove, N1 7QP">103 Murray Grove, N1 7QP</a>
+                <br><span class="artist-name">Phillipa Horan </span> - <a class="event-name" href="http://www.filetfilet.uk/">curated by Dan Mitchell</a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 8:30pm
+                </a>
+                 - <span class="gallery-name">Chisenhale Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/64 Chisenhale Rd, E3 5QZ">64 Chisenhale Rd, E3 5QZ</a>
+                <br><span class="artist-name">Mandy El&#39;Sayegh</span> - <a class="event-name" href="https://chisenhale.org.uk/exhibition/mandy-el-sayegh/">Cite Your Sources </a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  7:30 - 10pm
+                </a>
+                 - <span class="gallery-name">The Printspace Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/74 Kingsland Rd, E2 8DL">74 Kingsland Rd, E2 8DL</a>
+                <br><span class="artist-name">Leif Podhajsky</span> - <a class="event-name" href="https://www.theprintspace.co.uk/post-nature-harmony-digital-techniques-organic-feeling-outcomes/">Post Nature</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="https://www.eventbrite.co.uk/e/leif-podhajsky-post-nature-private-view-tickets-58987324676">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="ThursdaySouth"><h4>South</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Borough Road Archive</span> - <a class="gallery-address" href="https://www.google.com/maps/place/"></a>
+                <br><span class="artist-name">CCC Collective</span> - <a class="event-name" href="https://www.boroughroadcollectionarchive.com/events/2019/4/11/breathing-in-the-borough-road-archive">Breathing in the Borough Road Archive</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="ThursdaySouth East"><h4>South East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Bosse &amp; Baum</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Unit BCG, ground floor, Bussey Building, SE15 4ST">Unit BCG, ground floor, Bussey Building, SE15 4ST</a>
+                <br><span class="artist-name">Bea Bonafini </span> - <a class="event-name" href="http://www.bosseandbaum.com/bosse_exhibition/upcoming-bea-bonafini-talk-to-the-hand/">Talk to the Hand </a>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Ugly Duck</span> - <a class="gallery-address" href="https://www.google.com/maps/place/49 Tanner St, SE1 3PL">49 Tanner St, SE1 3PL</a>
+                <br><span class="artist-name">25 Group Show</span> - <a class="event-name" href="http://uglyduck.org.uk/portfolio_page/anamorphic/">Anamorphic Waves </a>
+              </p>
+              
+              <p><span class="rsvp-info"></span><a class="rsvp-url" href="https://www.eventbrite.co.uk/e/anamorphic-waves-opening-night-tickets-56566730614">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 9pm
+                </a>
+                - <span class="event-type">Listening Session</span> - <span class="gallery-name">Goldsmiths Centre for Contemporary Art</span> - <a class="gallery-address" href="https://www.google.com/maps/place/St James’ New Cross, SE14 6AD">St James’ New Cross, SE14 6AD</a>
+                <br><span class="artist-name">Rose Dagul [Lecturer in Popular Music, Goldsmiths] - Audioscapes in response to</span> - <a class="event-name" href="https://goldsmithscca.art/event/listening-session-body-of-sound/">How Chicago! Imagists 1960s &amp; 70s</a>
+              </p>
+              
+              <p><span class="rsvp-info"></span><a class="rsvp-url" href="https://www.eventbrite.co.uk/e/listening-session-body-of-sound-tickets-58091189311">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  7 - 8pm
+                </a>
+                - <span class="event-type">Talk</span> - <span class="gallery-name">Flat Time House</span> - <a class="gallery-address" href="https://www.google.com/maps/place/210 Bellenden Rd, SE15 4BW">210 Bellenden Rd, SE15 4BW</a>
+                <br><span class="artist-name">Dr Saskia Steinmann</span> - <a class="event-name" href="http://flattimeho.org.uk/events/lecture-dr-saskia-steinmann-fluid-boundaries-perce/">Fluid Boundaries of Perception [psychiatric neuroimaging]</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="day">
+      <a name="Friday"></a><h3>Friday</h3>
+      <div class="area">
+        <a name="FridayWest"><h4>West</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Elephant West</span> - <a class="gallery-address" href="https://www.google.com/maps/place/62 Wood Lane, W12 7RH">62 Wood Lane, W12 7RH</a>
+                <br><span class="artist-name">Elephant x Edouard Malingue Gallery</span> - <a class="event-name" href="https://elephant.art/event/elephant-x-edouard-malingue-gallery-dreams-illusions-phantom-flower/">Dreams illusions, phantom flowers</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="https://www.eventbrite.co.uk/e/elephant-x-edouard-malingue-gallery-dreams-illusions-phantom-flowers-tickets-58579469771?aff=efbeventtix&amp;fbclid=IwAR3h1_53UrSpQknUCw9_xrNaT15yXDCp567GUr8qw5nkow7qZYmSkC4Vp9U">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Elephant West</span> - <a class="gallery-address" href="https://www.google.com/maps/place/62 Wood Lane, W12 7RH">62 Wood Lane, W12 7RH</a>
+                <br><span class="artist-name">Asian Artist Moving Image Group {collab with Olivier Malingue HK/SH]</span> - <a class="event-name" href="https://elephant.art/event/elephant-x-edouard-malingue-gallery-dreams-illusions-phantom-flower/?utm_source=Elephant+Newsletter&amp;utm_campaign=2edcc887fe-EMAIL_CAMPAIGN_2019_03_28_03_20_COPY_03&amp;utm_medium=email&amp;utm_term=0_eba2b66bed-2edcc887fe-101646653&amp;goal=0_eba2b66bed-2edcc887fe-101646653&amp;mc_cid=2edcc887fe&amp;mc_eid=037b57d035">Dreams, illusions, phantom flowers </a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="FridayCentral"><h4>Central</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  2 - 4pm
+                </a>
+                - <span class="event-type">Book Signing</span> - <span class="gallery-name">David Zwirner</span> - <a class="gallery-address" href="https://www.google.com/maps/place/24 Grafton St, W1S 4EZ">24 Grafton St, W1S 4EZ</a>
+                <br><span class="artist-name">William Eggleston</span> - <a class="event-name" href="https://www.davidzwirner.com/news/william-eggleston-book-signing">2 1/4</a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="mailto:thendry@davidzwirner.com?subject=RSVP">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="FridayEast"><h4>East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 7:30pm
+                </a>
+                 - <span class="gallery-name">Whitechapel Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/82 Whitechapel High St, E1 7QX">82 Whitechapel High St, E1 7QX</a>
+                <br><span class="artist-name">Assistant Curator - Cameron Foote</span> - <a class="event-name" href="https://www.whitechapelgallery.org/events/curators-tour-is-this-tomorrow-4/">Is This Tomorrow?</a>
+              </p>
+              
+              <p><span class="rsvp-info">Free with exhibition ticket</span> - <a class="rsvp-url" href="https://www.myonlinebooking.co.uk/whitechapel/sessions.aspx?tid=615">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6:30 - 9pm
+                </a>
+                 - <span class="gallery-name">Kunstraum</span> - <a class="gallery-address" href="https://www.google.com/maps/place/21 Roscoe St, EC1Y 8PT">21 Roscoe St, EC1Y 8PT</a>
+                <br><span class="artist-name">Group Show [Looking at the shifting grounds between Sex and Intimacy]</span> - <a class="event-name" href="http://kunstraum.org.uk/something-soft/">Something soft </a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="FridaySouth"><h4>South</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 8pm
+                </a>
+                 - <span class="gallery-name">The Former Newington Library</span> - <a class="gallery-address" href="https://www.google.com/maps/place/155 Walworth Rd, SE17 1RS">155 Walworth Rd, SE17 1RS</a>
+                <br><span class="artist-name">Anna Walsh </span> - <a class="event-name" href="http://www.garudiostudiage.com/lessons-in-things.html">Lessons in Things </a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="day">
+      <a name="Saturday"></a><h3>Saturday</h3>
+      <div class="area">
+        <a name="SaturdayWest"><h4>West</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  3 - 5pm
+                </a>
+                - <span class="event-type">Panel</span> - <span class="gallery-name">Elephant West</span> - <a class="gallery-address" href="https://www.google.com/maps/place/62 Wood Lane, W12 7RH">62 Wood Lane, W12 7RH</a>
+                <br><span class="artist-name">Discussing Moving Image as a Medium responding to current show</span> - <a class="event-name" href="https://elephant.art/event/moving-image-medium/">Dreams, illusions, phantom flowers </a>
+              </p>
+              
+              <p><span class="rsvp-info">Rsvp essential</span> - <a class="rsvp-url" href="https://www.eventbrite.co.uk/e/moving-image-as-a-medium-tickets-58581796731?utm_source=Elephant+Newsletter&amp;utm_campaign=2edcc887fe-EMAIL_CAMPAIGN_2019_03_28_03_20_COPY_03&amp;utm_medium=email&amp;utm_term=0_eba2b66bed-2edcc887fe-101646653&amp;goal=0_eba2b66bed-2edcc887fe-101646653&amp;mc_cid=2edcc887fe&amp;mc_eid=037b57d035">RSVP</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="SaturdayEast"><h4>East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Auto Italia</span> - <a class="gallery-address" href="https://www.google.com/maps/place/44 Bonner Rd, E2 9JS">44 Bonner Rd, E2 9JS</a>
+                <br><span class="artist-name">Anna McMahon, Spence Messih &amp; Group</span> - <a class="event-name" href="http://autoitaliasoutheast.org/project/tender-rip/">Tender rip</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="area">
+        <a name="SaturdaySouth East"><h4>South East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  2 - 3pm
+                </a>
+                - <span class="event-type">Tour</span> - <span class="gallery-name">Shipment</span> - <a class="gallery-address" href="https://www.google.com/maps/place/2nd Floor, Building F, SE16 4DG">2nd Floor, Building F, SE16 4DG</a>
+                <br><span class="artist-name">Tour - Karolina Magnusson-Murray</span> - <span class="event-name">Mum, I Don’t Want to Be an Artist Anymore</span>
+              </p>
+              
+              
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  4 - 6pm
+                </a>
+                 - <span class="gallery-name">William Benington</span> - <a class="gallery-address" href="https://www.google.com/maps/place/50 Tower Bridge Rd, SE1 4TR">50 Tower Bridge Rd, SE1 4TR</a>
+                <br><span class="artist-name">Simon Linington</span> - <a class="event-name" href="http://williambeningtongallery.co.uk/simon-linington">La La Land [performance at 5pm]</a>
+              </p>
+              
+              <p><span class="rsvp-info"></span><a class="rsvp-url" href="mailto:george@williambenington.co.uk?subject=RSVP">RSVP</a></p>
+              
+            </div>
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  6 - 9pm
+                </a>
+                 - <span class="gallery-name">Black House Tower</span> - <a class="gallery-address" href="https://www.google.com/maps/place/Unit 8A-C, Abbey Trading Estate, Bell Green Lane, SE26 5TW">Unit 8A-C, Abbey Trading Estate, Bell Green Lane, SE26 5TW</a>
+                <br><span class="artist-name">Richard Forbes-Hamilton</span> - <a class="event-name" href="http://www.blacktowerprojects.com/a-ghost-eats-mud-on-the-mountain/">A Ghost Eats Mud on the Mountain</a>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="day">
+      <a name="Sunday"></a><h3>Sunday</h3>
+      <div class="area">
+        <a name="SundaySouth East"><h4>South East</h4></a>
+        <div class="group" id="none">
+          <div class="events">
+            <div class="event">
+              <p>
+                <a class="event-time" href="">
+                  3 - 6pm
+                </a>
+                 - <span class="gallery-name">Matt&#39;s Gallery</span> - <a class="gallery-address" href="https://www.google.com/maps/place/92 Webster Rd, SE16 4DF ">92 Webster Rd, SE16 4DF </a>
+                <br><span class="artist-name">Brian Catling</span> - <span class="event-name">Cuddy</span>
+              </p>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="opening-closing-text" style="padding: 10px;">
         <br>
-        <p style="margin: 0;font-size: 11pt;font-family: 'Cormorant Garamond', Helvetica, Arial, sans-serif;">Thanks,<br>
-        Max and Seb.
-        <br> <a href="mailto:max@sebsartlist.com">max@sebsartlist.com</a> <br><br>Enjoy!</p>
+      <p style="margin: 0;font-size: 11pt;">Feedback welcome as always - <a href="mailto:max@sebsartlist.com">max@sebsartlist.com</a> <br><br>Enjoy!</p>
 
-    </div>  
-
-        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
-          <tr style="height: 0pt;">
-            <td align="center" valign="top" style="padding: 36px 24px;">
-              <a href="https://www.instagram.com/sebsartlist/" target="_blank" style="display: inline-block;">
-                <img src="https://gallery.mailchimp.com/f4d65bca95d30cea631ed6aee/images/3bc0f0a9-b29d-423b-8a43-8d034836b6c4.png" alt="Instagram link" border="0" width="50%">
-              </a>
-            </td>
-          </tr>
-        </table>
-
+</div>  
+<div><a href="https://www.instagram.com/sebsartlist/"><img src="https://gallery.mailchimp.com/f4d65bca95d30cea631ed6aee/images/3bc0f0a9-b29d-423b-8a43-8d034836b6c4.png" alt="Seb's Art List instagram follow" width="100%"></a></div>
 
 
 </div>
