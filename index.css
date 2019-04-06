@@ -73,6 +73,7 @@
           padding: 5px;
           color: black;
           font-size: 12pt;
+          text-align: justify;
     }
 
     .week-detail-container{
