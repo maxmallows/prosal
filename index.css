@@ -1,6 +1,6 @@
 
       body {
-        font-family: 'Cormorant Garamond', Serif;
+        font-family: 'Cormorant Garamond', serif;
         text-align:left;
         max-width: 100%;
       }
@@ -80,12 +80,12 @@
 
     .day{
           padding: 2px, 0px;
-          font-family: 'Optima', sans-serif;
+          font-family: 'Roboto', sans-serif;
           margin-bottom: 2px;
     }
 
     .area{
-          font-family: 'Optima', sans-serif;
+          font-family: 'Roboto', sans-serif;
           padding: 2px 0px;
 
     }
@@ -104,7 +104,7 @@
 
     .event{
           width: 95%;
-          font-family: 'Cormorant Garamond', Serif;
+          font-family: 'Cormorant Garamond', serif;
           margin: 0px 5px 5px 5px;
     }
 
@@ -156,7 +156,7 @@
     .cta{
           padding:3px;
           margin: 10px;
-          font-family: 'Optima', sans-serif;
+          font-family: 'Roboto', sans-serif;
           text-align:center;
 
     }
