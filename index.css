@@ -123,14 +123,16 @@
 
     .artist-name{
           font-weight:400;
-          font-style: italic;
+                    color: black;
+          text-decoration:none;
+          
 
     }
 
     .event-name{
           font-weight:400;
           color: black;
-          text-decoration:none;
+          font-style: italic;
 
     }
 
